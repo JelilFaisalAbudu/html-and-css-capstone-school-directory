@@ -1,0 +1,170 @@
+/* custom styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  columns: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: coral;
+}
+
+.header-container {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.header-container .header-item {
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item > * {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item .nav-link-text,
+.nav-item .nav-icon {
+  color: aliceblue;
+}
+
+.nav-item .nav-link-text {
+  flex: 2;
+  color: aliceblue;
+}
+
+.site-brand .logo {
+  display: flex;
+  align-items: center;
+}
+
+.site-brand .logo h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.navbar .navbar-nav-no-toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* rule set for dropdown/ toggle menu */
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-toggler-label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-label span,
+.navbar-toggler-label span::before,
+.navbar-toggler-label span::after {
+  display: block;
+  background: whitesmoke;
+  width: 1.5em;
+  height: 2px;
+  border-radius: 3px;
+}
+
+.navbar-toggler-label span {
+  position: relative;
+}
+
+.navbar-toggler-label span::before,
+.navbar-toggler-label span::after {
+  content: " ";
+  position: absolute;
+}
+
+.navbar-toggler-label span::before {
+  bottom: 0.5em;
+}
+
+.navbar-toggler-label span::after {
+  top: 0.5em;
+}
+
+/*
+**********************
+* MEDIA QUERY        *
+**********************
+*/
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    flex-direction: row;
+  }
+
+  .header-container .header-item {
+    flex: 1 1 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .nav-item .nav-icon {
+    margin-right: 0.5em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item .nav-link-text,
+  .nav-item .nav-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-item .nav-link-text,
+  .nav-item .nav-icon {
+    font-size: 2rem;
+  }
+}
