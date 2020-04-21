@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="main.css">
   <script src="https://kit.fontawesome.com/53c96baea8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>School Directory</title>
 </head>
 
@@ -82,10 +83,62 @@
           <label for="keyWordSearchField" class="key-word-search-label text-uppercase">
             SEACRCH BY KEYWORD:
           </label>
-          <input type="text" id="keyWordSearchField" class="key-word-search-field">
+          <div class="input-and-search-wrapper w-100">
+          <input type="text" id="keyWordSearchField" class="key-word-search-field" placeholder="Enter school name">
           <button class="btn search-btn text-uppercase">SEARCH</button>
+          </div>
         </div>
-  
+        <a href="#searchProcedure" class="search-procedure-link">How It Works</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="searchProcedure" class="search-procedure-section d-none d-md-block mt-5">
+    <div class="container">
+      <div class="row">
+        <h4 class="intro-title search-procedure-title col-12 my-4 text-center text-uppercase text-dark">
+          SchoolHub works in four simple steps.
+        </h4>
+        <div class="search-procedure-step col-12 col-lg-6">
+          <div class="step-header">
+            <i class="fas fa-search-location mb-3"></i>
+            <h4 class="step-header-title mb-3">1-Search</h4>
+          </div>
+          <p class="step-detail">It's simple. On the SchoolHub homepage, head straight to the navigation section on the top of the page and locate click on "SCHOOLS". There are lots of schools to choose from. Select a school and read a brief detail about the school.</p>
+
+          <p>Alternatively, enter the name of the school you are looking for and click on the search button to find out more about the school.</p>
+
+
+        </div>
+        <div class="search-procedure-step col-12 col-lg-6">
+          <div class="step-header">
+            <i class="fas fa-map-marked-alt mb-3"></i>
+            <h4 class="step-header-title mb-3">2-Locate</h4>
+          </div>
+          <div class="step-detail">
+            <p>Get a full detail about your selected school by clicking on the school's profile link. This includes the specific location of the school, physical infrastructure and the envirenment, achievements and more.</p>
+          </div>
+
+        </div>
+        <div class="search-procedure-step col-12 col-lg-6">
+          <div class="step-header">
+            <i class="fas fa-file-alt mb-3"></i>
+            <h4 class="step-header-title mb-3">3-Apply</h4>
+          </div>
+          <div class="step-detail">
+            <p>Apply for your ward's addmission into your school of choice by filling the school's admission form either online or by other means directed by the school's authority.</p>
+            <p><span class="text-bold">Note:</span> Each school has its's own admission procedures. You are therefore urged to read thoroughly before preceeding on to fill the forms.</p>
+          </div>
+        </div>
+        <div class="search-procedure-step col-12 col-lg-6">
+          <div class="step-header">
+            <i class="fas fa-umbrella-beach mb-3"></i>
+            <h4 class="step-header-title mb-3">4-Relax</h4>
+          </div>
+          <div class="step-detail">
+            <p>Once your ward gets admitted, you can now relax. You can check out our blog to see what some parents and expects are saying about things to look for when selecting a particular school for your ward</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
