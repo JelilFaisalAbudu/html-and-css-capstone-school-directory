@@ -16,6 +16,10 @@ body {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   font-size: inherit;
@@ -82,12 +86,12 @@ ul {
   color: aliceblue;
 }
 
-.site-brand .logo {
+.site-brand .brand-logo {
   display: flex;
   align-items: center;
 }
 
-.site-brand .logo h1 {
+.site-brand .brand-logo h1 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0;
@@ -193,7 +197,7 @@ ul {
 /* rule set for search section */
 
 .main-search-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/montessori.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("images/montessori.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -283,6 +287,73 @@ ul {
 .school .school-img {
   width: 100%;
   height: auto;
+}
+
+/*
+****************************
+* RULE SETS FOR THE FOOTER *
+****************************
+*/
+
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.footer .top .footer-nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer-nav-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  padding: 0.2em 0;
+  position: relative;
+}
+
+.footer .brand-logo {
+  font-size: 1rem;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  border: 0.1em solid gray;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.footer .top-section .bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33.333%, 1fr));
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.footer .top-section .bottom .subscribe-container {
+  text-align: center;
+  color: rgb(203, 212, 212);
+}
+
+.footer .bottom-section {
+  background-color: rgb(56, 54, 54);
+}
+
+.footer .bottom a {
+  color: tomato;
+}
+
+.footer .social-container {
+  flex-basis: 20%;
+}
+
+.footer .social-container .wrapper {
+  flex: 1 20%;
 }
 
 @media screen and (min-width: 992px) {
