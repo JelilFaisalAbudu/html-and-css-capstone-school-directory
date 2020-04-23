@@ -5,7 +5,7 @@ This is an assessment project on HTML and CSS technical curriculum for Microvers
 
 Layout of  web page for study purpose
 
-[Project Design](https://www.behance.net/gallery/25563385/PatashuleKE)
+![Project Design](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 > This is a final project-Capstone Project for Microverse HTML and CSS Technical Curriculum. The goal is to build a web app using the PatashuleKE design prototype.  
 
@@ -28,7 +28,8 @@ Another feature of the web app is the ability of the user to apply for sdmission
 
 ## Live Demo
 
-[Live Demo (main page)](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
+![My Video Presentation](https://www.loom.com/share/dd225feb57594ab183cf6c2254261394)
+![Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
 
 
 ## Getting Started
@@ -51,15 +52,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Niiazaly Dzhumaliev**
 
-- Github: [JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
-- Twitter: [@jelilabudu](https://twitter.com/jelilabudu)
-- Linkedin: [jelilfaisalabudu](https://github.com/JelilFaisalAbudu/using-bootstrap/blob/master/www.linkedin.com/in/jelilfaisalabudu)
+- Github: ![JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
+- Twitter: ![@jelilabudu](https://twitter.com/jelilabudu)
+- Linkedin: ![jelilfaisalabudu](https://github.com/JelilFaisalAbudu/using-bootstrap/blob/master/www.linkedin.com/in/jelilfaisalabudu)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/issues).
+Feel free to check the ![issues page](https://github.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/issues).
 
 ## Show your support
 
@@ -67,8 +68,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [mathewnjuguna] (https://www.behance.net/mathewnjuguna)
-- [aweSam] (https://www.behance.net/aweSam)
+- [mathewnjuguna](https://www.behance.net/mathewnjuguna)
+- [aweSam](https://www.behance.net/aweSam)
 
 ## 📝 License
 
