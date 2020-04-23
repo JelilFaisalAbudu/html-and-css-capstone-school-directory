@@ -54,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: ![JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
 - Twitter: ![@jelilabudu](https://twitter.com/jelilabudu)
-- Linkedin: ![jelilfaisalabudu](https://github.com/JelilFaisalAbudu/using-bootstrap/blob/master/www.linkedin.com/in/jelilfaisalabudu)
+- Linkedin: ![jelilfaisalabudu](https://linkedin.com/in/jelilfaisalabudu)
 
 ## 🤝 Contributing
 
