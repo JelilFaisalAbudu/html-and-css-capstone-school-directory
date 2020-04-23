@@ -5,7 +5,7 @@ This is an assessment project on HTML and CSS technical curriculum for Microvers
 
 Layout of  web page for study purpose
 
-![Project Design](https://www.behance.net/gallery/25563385/PatashuleKE)
+[Project Design](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 > This is a final project-Capstone Project for Microverse HTML and CSS Technical Curriculum. The goal is to build a web app using the PatashuleKE design prototype.  
 
@@ -28,8 +28,8 @@ Another feature of the web app is the ability of the user to apply for sdmission
 
 ## Live Demo
 
-![My Video Presentation](https://www.loom.com/share/dd225feb57594ab183cf6c2254261394)
-![Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
+[My Video Presentation](https://www.loom.com/share/dd225feb57594ab183cf6c2254261394)
+[Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
 
 
 ## Getting Started
