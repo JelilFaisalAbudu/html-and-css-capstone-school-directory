@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-👤 **Niiazaly Dzhumaliev**
+👤 **Jelil Faisal Abudu**
 
 - Github: ![JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
 - Twitter: ![@jelilabudu](https://twitter.com/jelilabudu)
