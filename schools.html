@@ -27,51 +27,94 @@
             </a>
           </div>
         </div>
-        <nav class="navbar header-item px-0 px-sm-2">
-          <ul class="navbar-nav  navbar-nav-no-toggle">
-            <li class="nav-item">
-              <a href="schools.html">
-                <i class="fas fa-search nav-icon"></i>
-                <span class="nav-link-text d-none d-lg-flex">Schools</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#">
-                <i class="far fa-user nav-icon"></i>
-                <span class="nav-link-text d-none d-lg-flex">About</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#">
-                <i class="fas fa-rss nav-icon"></i>
-                <span class="nav-link-text d-none d-lg-flex">Blog</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <label for="navbarToggler" class="navbar-toggler-label mb-0">
-                <span class="nav-icon"></span>
-              </label>
-              <input type="checkbox" name="navbar-toggler" id="navbarToggler" class="navbar-toggler">
-              <!-- <ul class=" navbar-nav-toggle">
-                <li class="nav-item"><a href="#"></a></li>
-                <li class="nav-item"><a href="#">Portfolio</a></li>
-                <li class="nav-item"><a href="#"></a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
-              </ul> -->
-            </li>
-          </ul>
-          
-          <!-- <form action="#" class="search-form">
-            <label for="globalBlockSearch" class="global-block-search-label">
-              <input type="text" class="global-block-search" id="globalBlockSearch" placeholder="Search">
-            Search
+        <nav class="navbar">
+          <a href="schools.html" class="d-flex align-items-center">
+            <i class="fas fa-search nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">Schools</span>
+          </a>
+          <a href="#" class="d-flex align-items-center">
+            <i class="far fa-user nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">About</span>
+          </a>
+          <a href="#" class="d-flex align-items-center">
+            <i class="fas fa-rss nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">Blog</span>
+          </a>
+          <div>
+            <label for="navbarToggler" class="navbar-toggler-label d-flex align-items-center mb-0">
+              <span class="nav-icon mr-1"></span>
+              <span class="toggle-text d-none d-lg-flex">More...</span>
             </label>
-          </form> -->
+            <input type="checkbox" name="navbar-toggler" id="navbarToggler" class="navbar-toggler">
+          </div>
         </nav>
       </div>
     </div>
   </header>
-  <main class="main">
+  <main class="main mt-5 pt-4">
+    <div class="filter-section">
+      <div class="container">
+        <div class="row">
+          <div class="filter-header col-12 ">Filter school by name, country education system, school level:</div>
+          <div class="col-12">
+            <div class="field-group-row row  row-no-gutters">
+              <div class="field-group name-input col-auto">
+                <label for="schoolName" class="field-label">School Name:*</label>
+                <input type="text" id="schoolName" class="school-name">
+              </div>
+              <div class="field-group col-auto">
+                <label for="country" class="field-label">Country:</label>
+                <select id="country" size="1">
+                  <option value="Ghana">Ghana</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="mercedes">Nigeria</option>
+                  <option value="South Africa">South Africa</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="level" class="field-label">Level:</label>
+                <select id="level" size="1">
+                  <option value="kindergaten">Kindergaten</option>
+                  <option value="primary">Primary</option>
+                  <option value="high-school">High School</option>
+                  <option value="college">College</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="type" class="field-label">Type:</label>
+                <select id="type" size="1">
+                  <option value="public">Puclic</option>
+                  <option value="private">Private</option>
+                  <option value="mission">Mission</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="gender" class="field-label">Gender:</label>
+                <select id="gender" size="1">
+                  <option value="male">Male only</option>
+                  <option value="female">Female only</option>
+                  <option value="mixed">Mixed</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="curriculum" class="field-label">Curriculum:</label>
+                <select id="curriculum" size="1">
+                  <option value="curriculum">GES and British</option>
+                  <option value="british">British</option>
+                </select> 
+              </div>
+              <div class="field-group field-group-last col-auto">
+                <div class="btn-group">
+                  <button type="submit" class="btn btn-primary">search</button>
+                  <button type="submit" class="btn btn-warning">clear filter</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container my-4 py-5">
     <div class="row school-list">
       <h3 class="section-title col-12 py-4 text-center">List Of Available Schools</h3>
@@ -84,7 +127,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -97,7 +140,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day only</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -110,7 +153,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day only</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -123,7 +166,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -136,7 +179,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -149,7 +192,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -162,7 +205,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -175,7 +218,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -188,7 +231,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -201,7 +244,7 @@
             <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
             <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
           </div>
-          <a href="#" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
           <a href="school-details.html" class="full-detail">Read Full Details...</a>
         </div>
       </div>
@@ -214,13 +257,13 @@
         <div class="top-section col-12">
           <div class="top">
             <nav class="footer-nav">
-              <ul class="footer-nav-list left-list border-top border-bottom">
+              <ul class="footer-nav-list left-list border-top border-bottom text-left">
                 <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Home</a></li>
                 <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Search</a></li>
                 <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">About Us</a></li>
                 <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Advertise</a></li>
               </ul>
-              <a href="" class="footer-nav-list-item brand-logo  text-uppercase text-white">
+              <a href="" class="footer-nav-list-item brand-logo  text-uppercase text-white text-center">
                 <i class="fas fa-graduation-cap nav-icon"></i>
               </a>
               <ul class="footer-nav-list right-list border-top border-bottom">
@@ -244,6 +287,7 @@
             <div class="container-fluid subscribe-container">
               <h5 class="section-title text-uppercase">Contact</h5>
               <p>Have any question to ask or submissiom to make? Get us posted. <a href="mailto:abudujelilfaisal@gmail.com?Subject=Hello%20again" target="_top">abudujelilfaisal@gmail.com</a></p>
+              
             </div>
             <div class="container-fluid subscribe-container">
               <h5 class="section-title text-uppercase">About</h5>
@@ -253,17 +297,18 @@
         </div>
         <div class="bottom-section col-12 py-1">
           <div class="container-fluid social-and-legal-container d-flex align-items-center justify-content-between">
-            <div class="legal-container text-white">
-              <span class="legal">&copy;<i class="fas fa-graduation-cap nav-icon"></i></span><span>SchoolHub 2020</span>
-            </div>
-            <div class="social-container d-flex align-items-center justify-content-end">
-              <div class="wrapper d-flex align-items-center justify-content-between">
-                <a href="" class="social-link text-white"><i class="fab fa-github"></i></a>
-                <a href="" class="social-link text-white"><i class="fab fa-linkedin"></i></a>
-                <a href="" class="social-link text-white"><i class="fab fa-twitter-square"></i></a>
-                <a href="" class="social-link text-white"><i class="fab fa-facebook-square"></i></a>
+            <div class="social-container d-flex align-items-center justify-content-start">
+              <div class="wrapper d-flex align-items-center text-muted">
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-github"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-twitter-square"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-facebook-square"></i></a>
               </div>
             </div>
+            <div class="legal-container text-white">
+              <span class="legal mr-1">&copy;</span> <span><i class="fas fa-graduation-cap nav-icon mr-1"></i></span><span>SchoolHub 2020</span>
+            </div>
+            
           </div>
         </div>
 
