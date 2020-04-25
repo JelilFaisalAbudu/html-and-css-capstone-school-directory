@@ -13,12 +13,13 @@ Layout of  web page for study purpose
 
 
 ## Additional description about the project and its features.
-SchoolHub is a web app developed to help parents and guardiance find schools with ease for their wards.
+
+SchoolHub is a web app developed to help parents and guardians find schools with ease for their wards.
 
 For this reason, the home has a large search field for the user to enter the school he or she is looking for.
 However, the user has another option to click on a navigation icon on the navbar to open a list of registered schools.
 
-Another feature of the web app is the ability of the user to apply for sdmission directly from the page.
+Another feature of the web app is the ability of the user to apply for admission directly from the page.
 
 ## Built With
 
@@ -28,7 +29,7 @@ Another feature of the web app is the ability of the user to apply for sdmission
 
 ## Live Demo
 
-[My Video Presentation](https://www.loom.com/share/dd225feb57594ab183cf6c2254261394)
+[My Video Presentation](https://www.loom.com/share/494a53c6acf1449c812dea88306f3bf6)
 [Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
 
 
@@ -52,15 +53,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Jelil Faisal Abudu**
 
-- Github: ![JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
-- Twitter: ![@jelilabudu](https://twitter.com/jelilabudu)
-- Linkedin: ![jelilfaisalabudu](https://linkedin.com/in/jelilfaisalabudu)
+- Github: [JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
+- Twitter: [@jelilabudu](https://twitter.com/jelilabudu)
+- Linkedin: [jelilfaisalabudu](https://linkedin.com/in/jelilfaisalabudu)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the ![issues page](https://github.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/issues).
+Feel free to check the [issues page](https://github.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/issues).
 
 ## Show your support
 
