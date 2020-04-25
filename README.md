@@ -29,8 +29,8 @@ Another feature of the web app is the ability of the user to apply for admission
 
 ## Live Demo
 
-[My Video Presentation](https://www.loom.com/share/494a53c6acf1449c812dea88306f3bf6)
-[Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
+- [My Video Presentation](https://www.loom.com/share/494a53c6acf1449c812dea88306f3bf6)
+- [Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
 
 
 ## Getting Started
