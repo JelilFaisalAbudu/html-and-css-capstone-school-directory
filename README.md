@@ -9,7 +9,7 @@ Layout of  web page for study purpose
 
 > This is a final project-Capstone Project for Microverse HTML and CSS Technical Curriculum. The goal is to build a web app using the PatashuleKE design prototype.  
 
-![Homepage screenshot](images/school-directory-home.jpg)
+![Homepage screenshot](images/images/page-shot.jpg)
 
 
 ## Additional description about the project and its features.
