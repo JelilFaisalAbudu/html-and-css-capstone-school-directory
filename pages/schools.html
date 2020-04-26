@@ -41,11 +41,19 @@
             <span class="nav-link-text d-none d-lg-flex">Blog</span>
           </a>
           <div>
-            <label for="navbarToggler" class="navbar-toggler-label d-flex align-items-center mb-0">
-              <span class="nav-icon mr-1"></span>
+            <label for="navbarToggler" class="navbar-toggler-label d-flex align-items-center mb-0" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="nav-icon navbar-toggler-icon mr-1" ></span>
               <span class="toggle-text d-none d-lg-flex">More...</span>
             </label>
-            <input type="checkbox" name="navbar-toggler" id="navbarToggler" class="navbar-toggler">
+          </div>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav navbar-nav-drop-vertical">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About</a></li>
+              <li class="nav-item"><a href="#">Portfolio</a></li>
+              <li class="nav-item"><a href="#">Blogs</a></li>
+              <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
           </div>
         </nav>
       </div>

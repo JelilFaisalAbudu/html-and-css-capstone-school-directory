@@ -133,6 +133,23 @@ nav {
   width: 100%;
 }
 
+/*
+*******************
+* Navbar drop *
+*******************
+*/
+
+.navbar-collapse {
+  background-color: tomato;
+  top: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.navbar-nav-drop-vertical {
+  align-items: flex-end;
+}
+
 .section-col {
   flex-direction: column;
   align-items: center;
@@ -583,10 +600,10 @@ nav {
   }
 
   .header-container .header-item {
+    align-self: flex-start;
     flex: 1 1 100%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: start;
   }
 
