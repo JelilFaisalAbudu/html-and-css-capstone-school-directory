@@ -30,7 +30,8 @@ Another feature of the web app is the ability of the user to apply for admission
 
 ## Live Demo
 
-- [My Video Presentation](https://www.loom.com/share/494a53c6acf1449c812dea88306f3bf6)
+- [My Video Presentation](https://www.loom.com/share/df0875ec9118472d9ae14d00b139e2e3)
+
 - [Live Demo](https://raw.githack.com/JelilFaisalAbudu/html-and-css-capstone-school-directory/development/index.html)
 
 
@@ -70,8 +71,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [mathewnjuguna](https://www.behance.net/mathewnjuguna)
-- [aweSam](https://www.behance.net/aweSam)
+# The design of this project is attributed to the following people find it and others on Behance;
+- [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
+- [Sam Achola](https://www.behance.net/aweSam)
 
 ## 📝 License
 
