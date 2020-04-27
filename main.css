@@ -450,7 +450,7 @@ nav {
 }
 
 .tab-1 .table-group {
-  border: 1px solid;
+  border: 1px solid rgb(167, 157, 157);
   margin-bottom: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -622,6 +622,10 @@ nav {
   .toggle-text {
     margin-right: 1.5em;
     font-size: 1.2rem;
+  }
+
+  .toggle-text {
+    margin-right: 0;
   }
 
   .nav-item .nav-icon {
