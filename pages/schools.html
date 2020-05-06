@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../main.css">
+  <script src="https://kit.fontawesome.com/53c96baea8.js" crossorigin="anonymous"></script>
+  <title>School Directory</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header-container">
+        <div class="header-item site-brand">
+          <div class="brand-logo rounded">
+            <a class="d-flex align-items-center text-white" href="../index.html">
+              <i class="fas fa-graduation-cap fa-3x nav-icon"></i>
+              <h1 class="logo-text">SchoolHub</h1>
+            </a>
+          </div>
+        </div>
+        <nav class="navbar">
+          <a href="schools.html" class="d-flex align-items-center rounded">
+            <i class="fas fa-search nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">Schools</span>
+          </a>
+          <a href="#" class="d-flex align-items-center rounded">
+            <i class="far fa-user nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">About</span>
+          </a>
+          <a href="#" class="d-flex align-items-center rounded">
+            <i class="fas fa-rss nav-icon mr-1"></i>
+            <span class="nav-link-text d-none d-lg-flex">Blog</span>
+          </a>
+          <div>
+            <div class="navbar-toggler-label d-flex align-items-center mb-0 rounded" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="nav-icon navbar-toggler-icon mr-1" ></span>
+              <span class="toggle-text d-none d-lg-flex">More...</span>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav navbar-nav-drop-vertical">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About</a></li>
+              <li class="nav-item"><a href="#">Portfolio</a></li>
+              <li class="nav-item"><a href="#">Blogs</a></li>
+              <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main mt-5 pt-4">
+    <div class="filter-section">
+      <div class="container">
+        <div class="row">
+          <div class="filter-header col-12 ">Filter school by name, country education system, school level:</div>
+          <div class="col-12">
+            <div class="field-group-row row  row-no-gutters">
+              <div class="field-group name-input col-auto">
+                <label for="schoolName" class="field-label">School Name:*</label>
+                <input type="text" id="schoolName" class="school-name">
+              </div>
+              <div class="field-group col-auto">
+                <label for="country" class="field-label">Country:</label>
+                <select id="country" size="1">
+                  <option value="Ghana">Ghana</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="mercedes">Nigeria</option>
+                  <option value="South Africa">South Africa</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="level" class="field-label">Level:</label>
+                <select id="level" size="1">
+                  <option value="kindergaten">Kindergaten</option>
+                  <option value="primary">Primary</option>
+                  <option value="high-school">High School</option>
+                  <option value="college">College</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="type" class="field-label">Type:</label>
+                <select id="type" size="1">
+                  <option value="public">Puclic</option>
+                  <option value="private">Private</option>
+                  <option value="mission">Mission</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="gender" class="field-label">Gender:</label>
+                <select id="gender" size="1">
+                  <option value="male">Male only</option>
+                  <option value="female">Female only</option>
+                  <option value="mixed">Mixed</option>
+                </select> 
+              </div>
+              <div class="field-group col-auto">
+                <label for="curriculum" class="field-label">Curriculum:</label>
+                <select id="curriculum" size="1">
+                  <option value="curriculum">GES and British</option>
+                  <option value="british">British</option>
+                </select> 
+              </div>
+              <div class="field-group field-group-last col-auto">
+                <div class="btn-group">
+                  <button type="submit" class="btn btn-primary rounded">search</button>
+                  <button type="submit" class="btn btn-warning rounded">clear filter</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4 py-5">
+    <div class="row school-list">
+      <h3 class="section-title col-12 py-4 text-center">List Of Available Schools</h3>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/al-rayan.jpg" alt="Al-Rayan" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/association.jpg" alt="Association Internatioinal" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Association Internatioinal School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day only</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/Bethel.jpg" alt="Bethel" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Bethel School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Public</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day only</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/blooming.jpg" alt="Blooming" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Bloomings Montessori Plus</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/british.jpg" alt="Britsh" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">ISYF Britsh School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/graville.jpg" alt="Graville" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/inter-comm.jpg" alt="Internatioinal Community School" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/liberty.jpg" alt="Liberty" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/lincoln.png" alt="Lincoln" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+      <div class="school col-12 col-md-6 col-lg-4">
+        <img src="../images/multikids.jpg" alt="Multikids" class="school-img">
+        <div class="summary">
+          <p class="school-name"><span>Name:</span> <span class="last-item">Al-Rayan International School</span></p>
+          <div class="category">
+            <p class="sub-category prop"><span>Prop:</span> <span class="last-item">Private</span></p>
+            <p class="sub-category gender"><span>Gender:</span> <span class="last-item">Mixed</span></p>
+            <p class="sub-category mode"><span>Mode:</span> <span class="last-item">Day &amp; Bording</span></p>
+          </div>
+          <a href="sign-up-form.html" class="btn bg-primary text-white ">Apply</a> <br>
+          <a href="school-details.html" class="full-detail">Read Full Details...</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="top-section col-12">
+          <div class="top">
+            <nav class="footer-nav">
+              <ul class="footer-nav-list left-list border-top border-bottom text-left">
+                <li class="footer-nav-list-item"><a href="../index.html" class="footer-nav-list-item-link text-uppercase text-white">Home</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Search</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">About Us</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Advertise</a></li>
+              </ul>
+              <a href="" class="footer-nav-list-item brand-logo  text-uppercase text-white text-center">
+                <i class="fas fa-graduation-cap nav-icon"></i>
+              </a>
+              <ul class="footer-nav-list right-list border-top border-bottom">
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Facebook</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Twitter</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Blog</a></li>
+                <li class="footer-nav-list-item"><a href="" class="footer-nav-list-item-link text-uppercase text-white">Google+</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="bottom">
+            <div class="container-fluid subscribe-container">
+              <h5 class="section-title text-uppercase">Subscribe</h5>
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="youremail@example.com">
+                <div class="input-group-append">
+                  <button class="btn btn-send">Send</button>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid subscribe-container">
+              <h5 class="section-title text-uppercase">Contact</h5>
+              <p>Have any question to ask or submissiom to make? Get us posted. <a href="mailto:abudujelilfaisal@gmail.com?Subject=Hello%20again" target="_top">abudujelilfaisal@gmail.com</a></p>
+              
+            </div>
+            <div class="container-fluid subscribe-container">
+              <h5 class="section-title text-uppercase">About</h5>
+              <p>SchoolHub is an online platform where parents and guardiance use the minimmum time possible to seacrh and choose the best basic school for their wards free of charge. <a href="#">Learn more.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section col-12 py-1">
+          <div class="container-fluid social-and-legal-container d-flex align-items-center justify-content-between">
+            <div class="social-container d-flex align-items-center justify-content-start">
+              <div class="wrapper d-flex align-items-center text-muted">
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-github"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-twitter-square"></i></a>
+                <a href="" class="social-link mr-2 text-white"><i class="fab fa-facebook-square"></i></a>
+              </div>
+            </div>
+            <div class="legal-container text-white">
+              <span class="legal mr-1">&copy;</span> <span><i class="fas fa-graduation-cap nav-icon mr-1"></i></span><span>SchoolHub 2020</span>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
